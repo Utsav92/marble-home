@@ -1,0 +1,47 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "marble-home"
+version = "0.1.0"
+description = "Household humanoid manipulation research stack: World Labs Marble scenes + MuJoCo/RoboSuite + PyTorch policies"
+requires-python = ">=3.10,<3.13"
+dependencies = [
+  "robosuite==1.5.2",
+  "mujoco==3.3.7",          # robosuite 1.5.2 needs MjData.qM, removed in mujoco>=3.4
+  "mink==0.0.5",
+  "qpsolvers[quadprog]>=4.3.1",
+  "numpy<2",                # numba pulled in by robosuite
+  "scipy",
+  "gymnasium",
+  "trimesh",
+  "h5py",
+  "pyyaml",
+  "requests",
+  "pandas",
+  "matplotlib",
+  "scikit-learn",
+  "imageio",
+  "imageio-ffmpeg",
+  "opencv-python",
+  "tensorboard",
+  "stable-baselines3",
+  "torch",
+  "streamlit",
+  "pytest",
+]
+
+[project.optional-dependencies]
+open3d = ["open3d"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+markers = [
+  "slow: builds a robosuite env (several seconds each)",
+  "network: needs WORLDLABS_API_KEY and spends credits; never run by default",
+]
+addopts = "-m 'not network'"

@@ -1,0 +1,6 @@
+-r base.txt
+# GPU PyTorch (Profile B/C). NOT validated on this project's dev machine (no NVIDIA GPU).
+# Pick the CUDA index matching your driver, e.g.:
+#   pip install -r requirements/gpu.txt --extra-index-url https://download.pytorch.org/whl/cu124
+torch
+# Offscreen rendering on a headless Linux GPU box:  export MUJOCO_GL=egl

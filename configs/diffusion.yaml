@@ -1,0 +1,20 @@
+# Diffusion policy (state obs). Small enough for CPU.
+task: pick_up_cup
+n_obs: 2           # observation horizon
+horizon: 16        # prediction horizon (must be divisible by 4)
+n_act: 8           # action execution horizon (receding horizon)
+train_steps: 100   # DDPM training steps
+ddim_steps: 10     # inference denoising steps (Experiment 7 sweeps this)
+widths: [64, 128]
+obs_feat: 128
+epochs: 60
+batch_size: 128
+lr: 1.0e-3
+weight_decay: 1.0e-6
+grad_clip: 1.0
+ema_decay: 0.995
+patience: 15
+seed: 0
+n_demos: null
+run_name: null
+eval_episodes: 30

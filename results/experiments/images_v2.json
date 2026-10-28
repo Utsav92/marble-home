@@ -1,0 +1,84 @@
+{
+  "task": "pick_up_cup",
+  "demos": 150,
+  "rows": [
+    {
+      "train_dr": "none",
+      "test_dr": "none",
+      "success": 0.13333333333333333,
+      "ci95": [
+        0.05309569424218104,
+        0.2968168394441695
+      ],
+      "n": 30,
+      "val_mse": 0.023814972016747017,
+      "train_s": 5023.950048685074,
+      "epochs": 40
+    },
+    {
+      "train_dr": "none",
+      "test_dr": "visual",
+      "success": 0.13333333333333333,
+      "ci95": [
+        0.05309569424218104,
+        0.2968168394441695
+      ],
+      "n": 30,
+      "val_mse": 0.023814972016747017,
+      "train_s": 5727.598311424255,
+      "epochs": 40
+    },
+    {
+      "train_dr": "visual",
+      "test_dr": "none",
+      "success": 0.23333333333333334,
+      "ci95": [
+        0.11792239210501229,
+        0.40928672330324267
+      ],
+      "n": 30,
+      "val_mse": 0.02408041398410659,
+      "train_s": 4648.0219094753265,
+      "epochs": 40
+    },
+    {
+      "train_dr": "visual",
+      "test_dr": "visual",
+      "success": 0.2,
+      "ci95": [
+        0.09504978102401236,
+        0.37306047381027446
+      ],
+      "n": 30,
+      "val_mse": 0.02408041398410659,
+      "train_s": 5460.965136528015,
+      "epochs": 40
+    }
+  ],
+  "note": "first evaluation (0% everywhere) ran the delta-trained CNNs with absolute actions because train_bc_images did not record action_mode; checkpoints patched and re-evaluated, trainer fixed",
+  "manifest": {
+    "git_commit": null,
+    "git_dirty": false,
+    "versions": {
+      "python": "3.11.9",
+      "mujoco": "3.3.7",
+      "robosuite": "1.5.2",
+      "torch": "2.14.1+cpu",
+      "numpy": "1.26.4",
+      "gymnasium": "1.4.0",
+      "stable_baselines3": "2.9.0",
+      "trimesh": "4.12.2",
+      "h5py": "3.16.0",
+      "mink": "?"
+    },
+    "hardware": {
+      "machine": "AMD64",
+      "processor": "Intel64 Family 6 Model 142 Stepping 10, GenuineIntel",
+      "os": "Windows-10-10.0.26200-SP0",
+      "cpu_count": 8,
+      "ram_gb": 15.9,
+      "cuda": false
+    },
+    "pip_freeze_sha": null
+  }
+}

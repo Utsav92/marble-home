@@ -1,0 +1,5 @@
+{"experiment": "BC-initialised PPO actor evaluated BEFORE any PPO update", "task": "reach_cup", "actor": "SB3 MlpPolicy pi=[128,128] tanh",
+ "bc_pretrain": {"epochs": 40, "final_action_mse": 0.00049}, "held_out_seeds": "900000-900009 (n=10)",
+ "pretrain_only_success": "1/10", "mean_eef_error_m": 0.137,
+ "ppo_after_finetune_24576_steps_success": "0/20 (results/runs/ppo_reach_cup_bcinit_s0/eval.json)",
+ "conclusion": "distillation itself did not produce a working reacher; low imitation MSE != closed-loop success. Compare with BC-MLP (LayerNorm) on reach_cup in the benchmark."}

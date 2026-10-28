@@ -1,0 +1,4 @@
+# Task thresholds (override fields of marble_home.tasks.definitions.TaskConfig)
+reach_cup:   {horizon: 120, reach_tol: 0.05}
+pick_up_cup: {horizon: 220, lift_height: 0.08, hold_steps: 10}
+place_cup:   {horizon: 320, place_radius: 0.045, place_hold_steps: 10, place_max_speed: 0.05}

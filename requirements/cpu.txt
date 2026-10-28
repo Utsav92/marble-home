@@ -1,0 +1,4 @@
+-r base.txt
+# CPU-only PyTorch (Profile A). Install with:
+#   pip install -r requirements/cpu.txt --extra-index-url https://download.pytorch.org/whl/cpu
+torch

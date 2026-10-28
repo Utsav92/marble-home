@@ -1,0 +1,82 @@
+{
+  "task": "pick_up_cup",
+  "ckpt": "checkpoints/diffusion_v2d_pick_up_cup_s0.pt",
+  "rows": [
+    {
+      "ddim_steps": 1,
+      "success": 0.0,
+      "ci95": [
+        0.0,
+        0.11351709139047801
+      ],
+      "steps_mean": 220.0,
+      "joint_jerk": 39.87148102604708
+    },
+    {
+      "ddim_steps": 2,
+      "success": 0.0,
+      "ci95": [
+        0.0,
+        0.11351709139047801
+      ],
+      "steps_mean": 220.0,
+      "joint_jerk": 38.23175302702887
+    },
+    {
+      "ddim_steps": 5,
+      "success": 0.8333333333333334,
+      "ci95": [
+        0.6643529481431982,
+        0.9266356575964831
+      ],
+      "steps_mean": 125.36666666666666,
+      "joint_jerk": 9.683047395856319
+    },
+    {
+      "ddim_steps": 10,
+      "success": 0.7333333333333333,
+      "ci95": [
+        0.5555169795568831,
+        0.8581750444608938
+      ],
+      "steps_mean": 137.76666666666668,
+      "joint_jerk": 13.124054868077776
+    },
+    {
+      "ddim_steps": 20,
+      "success": 0.6333333333333333,
+      "ci95": [
+        0.4551324643360493,
+        0.7812629779598231
+      ],
+      "steps_mean": 144.36666666666667,
+      "joint_jerk": 15.827052577011651
+    }
+  ],
+  "note": "latency deliberately omitted (CPU shared); see latency_v2.json",
+  "manifest": {
+    "git_commit": null,
+    "git_dirty": true,
+    "versions": {
+      "python": "3.11.9",
+      "mujoco": "3.3.7",
+      "robosuite": "1.5.2",
+      "torch": "2.14.1+cpu",
+      "numpy": "1.26.4",
+      "gymnasium": "1.4.0",
+      "stable_baselines3": "2.9.0",
+      "trimesh": "4.12.2",
+      "h5py": "3.16.0",
+      "mink": "?"
+    },
+    "hardware": {
+      "machine": "AMD64",
+      "processor": "Intel64 Family 6 Model 142 Stepping 10, GenuineIntel",
+      "os": "Windows-10-10.0.26200-SP0",
+      "cpu_count": 8,
+      "ram_gb": 15.9,
+      "cuda": false
+    },
+    "pip_freeze_sha": "87de7737a4395986"
+  }
+}

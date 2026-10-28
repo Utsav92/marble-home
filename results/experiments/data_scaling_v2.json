@@ -1,0 +1,226 @@
+{
+  "task": "pick_up_cup",
+  "dataset": "pick_up_cup_v2delta",
+  "rows": [
+    {
+      "n_demos": 10,
+      "seed": 0,
+      "success": 0.26666666666666666,
+      "ci95": [
+        0.14182495553910618,
+        0.44448302044311694
+      ],
+      "val_mse": 0.0356860492913495,
+      "train_s": 18.39027500152588,
+      "episodes": 30,
+      "run": "bc_mlp_pick_up_cup_v2delta_n10_s0_v2ds"
+    },
+    {
+      "n_demos": 10,
+      "seed": 1,
+      "success": 0.2,
+      "ci95": [
+        0.09504978102401236,
+        0.37306047381027446
+      ],
+      "val_mse": 0.03792177077652176,
+      "train_s": 10.271171808242798,
+      "episodes": 30,
+      "run": "bc_mlp_pick_up_cup_v2delta_n10_s1_v2ds"
+    },
+    {
+      "n_demos": 10,
+      "seed": 2,
+      "success": 0.4,
+      "ci95": [
+        0.24590394326083398,
+        0.5767994750172617
+      ],
+      "val_mse": 0.03671051605031396,
+      "train_s": 11.005098104476929,
+      "episodes": 30,
+      "run": "bc_mlp_pick_up_cup_v2delta_n10_s2_v2ds"
+    },
+    {
+      "n_demos": 25,
+      "seed": 0,
+      "success": 0.8,
+      "ci95": [
+        0.6269395261897257,
+        0.9049502189759876
+      ],
+      "val_mse": 0.03130518281829234,
+      "train_s": 17.0396990776062,
+      "episodes": 30,
+      "run": "bc_mlp_pick_up_cup_v2delta_n25_s0_v2ds"
+    },
+    {
+      "n_demos": 25,
+      "seed": 1,
+      "success": 0.9333333333333333,
+      "ci95": [
+        0.7867618227892791,
+        0.9815233646723066
+      ],
+      "val_mse": 0.03198390084876493,
+      "train_s": 17.70599389076233,
+      "episodes": 30,
+      "run": "bc_mlp_pick_up_cup_v2delta_n25_s1_v2ds"
+    },
+    {
+      "n_demos": 25,
+      "seed": 2,
+      "success": 0.43333333333333335,
+      "ci95": [
+        0.27377237430615114,
+        0.6080299045459127
+      ],
+      "val_mse": 0.031096026564550096,
+      "train_s": 15.387056827545166,
+      "episodes": 30,
+      "run": "bc_mlp_pick_up_cup_v2delta_n25_s2_v2ds"
+    },
+    {
+      "n_demos": 50,
+      "seed": 0,
+      "success": 0.9666666666666667,
+      "ci95": [
+        0.8332924860304112,
+        0.9940915620051425
+      ],
+      "val_mse": 0.026484677887725575,
+      "train_s": 42.79738783836365,
+      "episodes": 30,
+      "run": "bc_mlp_pick_up_cup_v2delta_n50_s0_v2ds"
+    },
+    {
+      "n_demos": 50,
+      "seed": 1,
+      "success": 1.0,
+      "ci95": [
+        0.886482908609522,
+        1.0
+      ],
+      "val_mse": 0.02638687494793402,
+      "train_s": 34.27207827568054,
+      "episodes": 30,
+      "run": "bc_mlp_pick_up_cup_v2delta_n50_s1_v2ds"
+    },
+    {
+      "n_demos": 50,
+      "seed": 2,
+      "success": 0.8333333333333334,
+      "ci95": [
+        0.6643529481431982,
+        0.9266356575964831
+      ],
+      "val_mse": 0.027118958699151065,
+      "train_s": 29.588000774383545,
+      "episodes": 30,
+      "run": "bc_mlp_pick_up_cup_v2delta_n50_s2_v2ds"
+    },
+    {
+      "n_demos": 100,
+      "seed": 0,
+      "success": 1.0,
+      "ci95": [
+        0.886482908609522,
+        1.0
+      ],
+      "val_mse": 0.021937816153363918,
+      "train_s": 88.9210684299469,
+      "episodes": 30,
+      "run": "bc_mlp_pick_up_cup_v2delta_n100_s0_v2ds"
+    },
+    {
+      "n_demos": 100,
+      "seed": 1,
+      "success": 1.0,
+      "ci95": [
+        0.886482908609522,
+        1.0
+      ],
+      "val_mse": 0.022399878192051217,
+      "train_s": 59.787757873535156,
+      "episodes": 30,
+      "run": "bc_mlp_pick_up_cup_v2delta_n100_s1_v2ds"
+    },
+    {
+      "n_demos": 100,
+      "seed": 2,
+      "success": 1.0,
+      "ci95": [
+        0.886482908609522,
+        1.0
+      ],
+      "val_mse": 0.02197806305267222,
+      "train_s": 81.28443145751953,
+      "episodes": 30,
+      "run": "bc_mlp_pick_up_cup_v2delta_n100_s2_v2ds"
+    },
+    {
+      "n_demos": 240,
+      "seed": 0,
+      "success": 1.0,
+      "ci95": [
+        0.886482908609522,
+        1.0
+      ],
+      "val_mse": 0.018078487183959515,
+      "train_s": 258.9484169483185,
+      "episodes": 30,
+      "run": "bc_mlp_pick_up_cup_v2delta_n240_s0_v2ds"
+    },
+    {
+      "n_demos": 240,
+      "seed": 1,
+      "success": 0.9666666666666667,
+      "ci95": [
+        0.8332924860304112,
+        0.9940915620051425
+      ],
+      "val_mse": 0.01826764201768356,
+      "train_s": 261.7191274166107,
+      "episodes": 30,
+      "run": "bc_mlp_pick_up_cup_v2delta_n240_s1_v2ds"
+    },
+    {
+      "n_demos": 240,
+      "seed": 2,
+      "success": 0.8,
+      "ci95": [
+        0.6269395261897257,
+        0.9049502189759876
+      ],
+      "val_mse": 0.022868470722975154,
+      "train_s": 91.98136854171753,
+      "episodes": 30,
+      "run": "bc_mlp_pick_up_cup_v2delta_n240_s2_v2ds"
+    }
+  ],
+  "manifest": {
+    "git_commit": null,
+    "git_dirty": true,
+    "versions": {
+      "python": "3.11.9",
+      "mujoco": "3.3.7",
+      "robosuite": "1.5.2",
+      "torch": "2.14.1+cpu",
+      "numpy": "1.26.4",
+      "gymnasium": "1.4.0",
+      "stable_baselines3": "2.9.0",
+      "trimesh": "4.12.2",
+      "h5py": "3.16.0",
+      "mink": "?"
+    },
+    "hardware": {
+      "machine": "AMD64",
+      "processor": "Intel64 Family 6 Model 142 Stepping 10, GenuineIntel",
+      "os": "Windows-10-10.0.26200-SP0",
+      "cpu_count": 8,
+      "ram_gb": 15.9,
+      "cuda": false
+    },
+    "pip_freeze_sha": "87de7737a4395986"
+  }
+}

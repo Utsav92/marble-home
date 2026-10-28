@@ -1,0 +1,6 @@
+# Procedural kitchen scene spec (same schema Marble-derived scenes use for their dynamic content)
+scene_id: proc_kitchen_default
+kind: kitchen
+counter_height: 0.85
+counter_size: [0.70, 1.20]
+decor: {back_wall: true, upper_cabinets: true, dishwasher: false, dining_table: true, chairs: 2}

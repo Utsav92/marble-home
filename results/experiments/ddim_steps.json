@@ -1,0 +1,86 @@
+{
+  "task": "pick_up_cup",
+  "ckpt": "checkpoints/diffusion_pick_up_cup_n240_s0.pt",
+  "rows": [
+    {
+      "ddim_steps": 1,
+      "success": 0.0,
+      "ci95": [
+        0.0,
+        0.11351709139047801
+      ],
+      "latency_ms_per_env_step": 10.72880233350478,
+      "steps_mean": 220.0,
+      "joint_jerk": 74.39309122597525
+    },
+    {
+      "ddim_steps": 2,
+      "success": 0.0,
+      "ci95": [
+        0.0,
+        0.11351709139047801
+      ],
+      "latency_ms_per_env_step": 9.683744605739996,
+      "steps_mean": 220.0,
+      "joint_jerk": 82.25435036177582
+    },
+    {
+      "ddim_steps": 5,
+      "success": 0.8333333333333334,
+      "ci95": [
+        0.6643529481431982,
+        0.9266356575964831
+      ],
+      "latency_ms_per_env_step": 14.50541947955765,
+      "steps_mean": 125.53333333333333,
+      "joint_jerk": 13.85271055008872
+    },
+    {
+      "ddim_steps": 10,
+      "success": 0.8666666666666667,
+      "ci95": [
+        0.7031831605558306,
+        0.9469043057578189
+      ],
+      "latency_ms_per_env_step": 90.31815496077864,
+      "steps_mean": 120.33333333333333,
+      "joint_jerk": 12.3122504716475
+    },
+    {
+      "ddim_steps": 20,
+      "success": 0.9,
+      "ci95": [
+        0.7437855868473338,
+        0.9654007400402839
+      ],
+      "latency_ms_per_env_step": 47.829153533524234,
+      "steps_mean": 116.0,
+      "joint_jerk": 12.749920276475347
+    }
+  ],
+  "manifest": {
+    "git_commit": null,
+    "git_dirty": true,
+    "versions": {
+      "python": "3.11.9",
+      "mujoco": "3.3.7",
+      "robosuite": "1.5.2",
+      "torch": "2.14.1+cpu",
+      "numpy": "1.26.4",
+      "gymnasium": "1.4.0",
+      "stable_baselines3": "2.9.0",
+      "trimesh": "4.12.2",
+      "h5py": "3.16.0",
+      "mink": "?"
+    },
+    "hardware": {
+      "machine": "AMD64",
+      "processor": "Intel64 Family 6 Model 142 Stepping 10, GenuineIntel",
+      "os": "Windows-10-10.0.26200-SP0",
+      "cpu_count": 8,
+      "ram_gb": 15.9,
+      "cuda": false
+    },
+    "pip_freeze_sha": "87de7737a4395986"
+  }
+}

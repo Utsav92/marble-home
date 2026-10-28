@@ -1,0 +1,14 @@
+{
+  "final_stage": 1,
+  "transitions": [],
+  "skipped_unavailable": [
+    {
+      "id": 5,
+      "why": "needs real Marble exports (no WORLDLABS_API_KEY); synthetic fixtures substitute only for pipeline tests"
+    },
+    {
+      "id": 7,
+      "why": "Level C (learned locomotion) is blocked; base is fixed (Level A)"
+    }
+  ]
+}

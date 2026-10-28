@@ -1,0 +1,102 @@
+{
+  "task": "load_dishwasher",
+  "train_heights": [
+    0.82,
+    0.85,
+    0.88,
+    0.91
+  ],
+  "test_heights": [
+    0.835,
+    0.865,
+    0.9
+  ],
+  "n_per_height": 15,
+  "train_s_multi": 505.26388025283813,
+  "demos_per_height": 30,
+  "per_policy": {
+    "bc_single_height": {
+      "train_heights": {
+        "success": 0.25,
+        "ci95": [
+          0.1577638557841185,
+          0.3723231094548479
+        ],
+        "n": 60,
+        "per_height": {
+          "0.820": 0.0,
+          "0.850": 1.0,
+          "0.880": 0.0,
+          "0.910": 0.0
+        }
+      },
+      "test_heights": {
+        "success": 0.022222222222222223,
+        "ci95": [
+          0.003933497522757507,
+          0.11566946388718814
+        ],
+        "n": 45,
+        "per_height": {
+          "0.835": 0.06666666666666667,
+          "0.865": 0.0,
+          "0.900": 0.0
+        }
+      }
+    },
+    "bc_multi_height": {
+      "train_heights": {
+        "success": 0.8166666666666667,
+        "ci95": [
+          0.7008000677353371,
+          0.8944231096286387
+        ],
+        "n": 60,
+        "per_height": {
+          "0.820": 0.6,
+          "0.850": 0.8666666666666667,
+          "0.880": 0.8666666666666667,
+          "0.910": 0.9333333333333333
+        }
+      },
+      "test_heights": {
+        "success": 0.8888888888888888,
+        "ci95": [
+          0.7650062450910905,
+          0.9515959956217444
+        ],
+        "n": 45,
+        "per_height": {
+          "0.835": 0.8666666666666667,
+          "0.865": 1.0,
+          "0.900": 0.8
+        }
+      }
+    }
+  },
+  "manifest": {
+    "git_commit": null,
+    "git_dirty": true,
+    "versions": {
+      "python": "3.11.9",
+      "mujoco": "3.3.7",
+      "robosuite": "1.5.2",
+      "torch": "2.14.1+cpu",
+      "numpy": "1.26.4",
+      "gymnasium": "1.4.0",
+      "stable_baselines3": "2.9.0",
+      "trimesh": "4.12.2",
+      "h5py": "3.16.0",
+      "mink": "?"
+    },
+    "hardware": {
+      "machine": "AMD64",
+      "processor": "Intel64 Family 6 Model 142 Stepping 10, GenuineIntel",
+      "os": "Windows-10-10.0.26200-SP0",
+      "cpu_count": 8,
+      "ram_gb": 15.9,
+      "cuda": false
+    },
+    "pip_freeze_sha": "2f2547ef213e72e3"
+  }
+}

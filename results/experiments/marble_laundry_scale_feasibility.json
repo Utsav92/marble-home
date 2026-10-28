@@ -1,0 +1,58 @@
+{
+ "laundry_room_001": [
+  {
+   "scale": 0.83,
+   "room_xy_m": [
+    2.98,
+    3.03
+   ],
+   "height_m": 2.19,
+   "placement": "none"
+  },
+  {
+   "scale": 0.95,
+   "room_xy_m": [
+    3.41,
+    3.47
+   ],
+   "height_m": 2.51,
+   "placement": "none"
+  },
+  {
+   "scale": 1.0,
+   "room_xy_m": [
+    3.59,
+    3.65
+   ],
+   "height_m": 2.64,
+   "placement": "none"
+  },
+  {
+   "scale": 1.1,
+   "room_xy_m": [
+    3.95,
+    4.01
+   ],
+   "height_m": 2.91,
+   "placement": "none"
+  },
+  {
+   "scale": 1.2,
+   "room_xy_m": [
+    4.31,
+    4.38
+   ],
+   "height_m": 3.18,
+   "placement": "free"
+  },
+  {
+   "scale": 1.4,
+   "room_xy_m": [
+    5.03,
+    5.11
+   ],
+   "height_m": 3.71,
+   "placement": "free"
+  }
+ ]
+}

@@ -1,0 +1,14 @@
+# Behaviour cloning (state MLP). Override on the CLI: --set epochs=50 --set n_demos=100
+task: pick_up_cup
+model: mlp
+hidden: [256, 256]
+epochs: 150
+batch_size: 256
+lr: 1.0e-3
+weight_decay: 1.0e-4
+grad_clip: 1.0
+patience: 20
+seed: 0
+n_demos: null      # null = all training demos
+run_name: null     # default: bc_mlp_<task>_n<demos>_s<seed>
+eval_episodes: 30  # held-out instance seeds (disjoint from demo seeds)

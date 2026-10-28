@@ -1,0 +1,240 @@
+{
+  "task": "pick_up_cup",
+  "rows": [
+    {
+      "n_demos": 10,
+      "seed": 0,
+      "success": 0.06666666666666667,
+      "ci95": [
+        0.01847663532769335,
+        0.2132381772107209
+      ],
+      "val_mse": 0.010487534373084938,
+      "train_s": 18.809316873550415,
+      "env_steps_of_demos": null,
+      "episodes": 30,
+      "run": "bc_mlp_pick_up_cup_n10_s0"
+    },
+    {
+      "n_demos": 10,
+      "seed": 1,
+      "success": 0.2,
+      "ci95": [
+        0.09504978102401236,
+        0.37306047381027446
+      ],
+      "val_mse": 0.010408778790936156,
+      "train_s": 20.980120182037354,
+      "env_steps_of_demos": null,
+      "episodes": 30,
+      "run": "bc_mlp_pick_up_cup_n10_s1"
+    },
+    {
+      "n_demos": 10,
+      "seed": 2,
+      "success": 0.0,
+      "ci95": [
+        0.0,
+        0.11351709139047801
+      ],
+      "val_mse": 0.01090345830600089,
+      "train_s": 12.779663801193237,
+      "env_steps_of_demos": null,
+      "episodes": 30,
+      "run": "bc_mlp_pick_up_cup_n10_s2"
+    },
+    {
+      "n_demos": 25,
+      "seed": 0,
+      "success": 0.43333333333333335,
+      "ci95": [
+        0.27377237430615114,
+        0.6080299045459127
+      ],
+      "val_mse": 0.0037705572461739756,
+      "train_s": 56.69146490097046,
+      "env_steps_of_demos": null,
+      "episodes": 30,
+      "run": "bc_mlp_pick_up_cup_n25_s0"
+    },
+    {
+      "n_demos": 25,
+      "seed": 1,
+      "success": 0.1,
+      "ci95": [
+        0.03459925995971615,
+        0.2562144131526662
+      ],
+      "val_mse": 0.0037349138241224793,
+      "train_s": 32.42577862739563,
+      "env_steps_of_demos": null,
+      "episodes": 30,
+      "run": "bc_mlp_pick_up_cup_n25_s1"
+    },
+    {
+      "n_demos": 25,
+      "seed": 2,
+      "success": 0.2,
+      "ci95": [
+        0.09504978102401236,
+        0.37306047381027446
+      ],
+      "val_mse": 0.0038088358700547587,
+      "train_s": 25.17574405670166,
+      "env_steps_of_demos": null,
+      "episodes": 30,
+      "run": "bc_mlp_pick_up_cup_n25_s2"
+    },
+    {
+      "n_demos": 50,
+      "seed": 0,
+      "success": 0.6666666666666666,
+      "ci95": [
+        0.4877972581383026,
+        0.807697044731538
+      ],
+      "val_mse": 0.0025625091242930196,
+      "train_s": 39.04664373397827,
+      "env_steps_of_demos": null,
+      "episodes": 30,
+      "run": "bc_mlp_pick_up_cup_n50_s0"
+    },
+    {
+      "n_demos": 50,
+      "seed": 1,
+      "success": 0.7333333333333333,
+      "ci95": [
+        0.5555169795568831,
+        0.8581750444608938
+      ],
+      "val_mse": 0.002430978586529099,
+      "train_s": 26.73734998703003,
+      "env_steps_of_demos": null,
+      "episodes": 30,
+      "run": "bc_mlp_pick_up_cup_n50_s1"
+    },
+    {
+      "n_demos": 50,
+      "seed": 2,
+      "success": 0.03333333333333333,
+      "ci95": [
+        0.005908437994857381,
+        0.16670751396958874
+      ],
+      "val_mse": 0.0025229904283049524,
+      "train_s": 24.190687656402588,
+      "env_steps_of_demos": null,
+      "episodes": 30,
+      "run": "bc_mlp_pick_up_cup_n50_s2"
+    },
+    {
+      "n_demos": 100,
+      "seed": 0,
+      "success": 0.7,
+      "ci95": [
+        0.5212387898833981,
+        0.8333543735604106
+      ],
+      "val_mse": 0.0017088723975851577,
+      "train_s": 40.59577298164368,
+      "env_steps_of_demos": null,
+      "episodes": 30,
+      "run": "bc_mlp_pick_up_cup_n100_s0"
+    },
+    {
+      "n_demos": 100,
+      "seed": 1,
+      "success": 0.8,
+      "ci95": [
+        0.6269395261897257,
+        0.9049502189759876
+      ],
+      "val_mse": 0.0013725728826902307,
+      "train_s": 48.256673097610474,
+      "env_steps_of_demos": null,
+      "episodes": 30,
+      "run": "bc_mlp_pick_up_cup_n100_s1"
+    },
+    {
+      "n_demos": 100,
+      "seed": 2,
+      "success": 0.06666666666666667,
+      "ci95": [
+        0.01847663532769335,
+        0.2132381772107209
+      ],
+      "val_mse": 0.0014636030752364904,
+      "train_s": 39.03753638267517,
+      "env_steps_of_demos": null,
+      "episodes": 30,
+      "run": "bc_mlp_pick_up_cup_n100_s2"
+    },
+    {
+      "n_demos": 240,
+      "seed": 0,
+      "success": 1.0,
+      "ci95": [
+        0.886482908609522,
+        1.0
+      ],
+      "val_mse": 0.0011023809259729455,
+      "train_s": 76.89070582389832,
+      "env_steps_of_demos": null,
+      "episodes": 30,
+      "run": "bc_mlp_pick_up_cup_n240_s0"
+    },
+    {
+      "n_demos": 240,
+      "seed": 1,
+      "success": 0.9666666666666667,
+      "ci95": [
+        0.8332924860304112,
+        0.9940915620051425
+      ],
+      "val_mse": 0.001004529014881032,
+      "train_s": 85.75316762924194,
+      "env_steps_of_demos": null,
+      "episodes": 30,
+      "run": "bc_mlp_pick_up_cup_n240_s1"
+    },
+    {
+      "n_demos": 240,
+      "seed": 2,
+      "success": 0.9333333333333333,
+      "ci95": [
+        0.7867618227892791,
+        0.9815233646723066
+      ],
+      "val_mse": 0.0008969557728552771,
+      "train_s": 123.09998512268066,
+      "env_steps_of_demos": null,
+      "episodes": 30,
+      "run": "bc_mlp_pick_up_cup_n240_s2"
+    }
+  ],
+  "manifest": {
+    "git_commit": null,
+    "git_dirty": true,
+    "versions": {
+      "python": "3.11.9",
+      "mujoco": "3.3.7",
+      "robosuite": "1.5.2",
+      "torch": "2.14.1+cpu",
+      "numpy": "1.26.4",
+      "gymnasium": "1.4.0",
+      "stable_baselines3": "2.9.0",
+      "trimesh": "4.12.2",
+      "h5py": "3.16.0",
+      "mink": "?"
+    },
+    "hardware": {
+      "machine": "AMD64",
+      "processor": "Intel64 Family 6 Model 142 Stepping 10, GenuineIntel",
+      "os": "Windows-10-10.0.26200-SP0",
+      "cpu_count": 8,
+      "ram_gb": 15.9,
+      "cuda": false
+    },
+    "pip_freeze_sha": "87de7737a4395986"
+  }
+}

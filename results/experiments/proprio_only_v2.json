@@ -1,0 +1,61 @@
+{
+  "task": "pick_up_cup",
+  "rows": [
+    {
+      "seed": 0,
+      "success": 0.26666666666666666,
+      "ci95": [
+        0.14182495553910618,
+        0.44448302044311694
+      ],
+      "val_mse": 0.0227044825949537,
+      "n": 30
+    },
+    {
+      "seed": 1,
+      "success": 0.23333333333333334,
+      "ci95": [
+        0.11792239210501229,
+        0.40928672330324267
+      ],
+      "val_mse": 0.022796212653643448,
+      "n": 30
+    },
+    {
+      "seed": 2,
+      "success": 0.16666666666666666,
+      "ci95": [
+        0.07336434240351682,
+        0.3356470518568018
+      ],
+      "val_mse": 0.022707200296637774,
+      "n": 30
+    }
+  ],
+  "note": "56 proprio + 2 goal dims, NO cup pose; v2 controller, delta actions",
+  "manifest": {
+    "git_commit": null,
+    "git_dirty": true,
+    "versions": {
+      "python": "3.11.9",
+      "mujoco": "3.3.7",
+      "robosuite": "1.5.2",
+      "torch": "2.14.1+cpu",
+      "numpy": "1.26.4",
+      "gymnasium": "1.4.0",
+      "stable_baselines3": "2.9.0",
+      "trimesh": "4.12.2",
+      "h5py": "3.16.0",
+      "mink": "?"
+    },
+    "hardware": {
+      "machine": "AMD64",
+      "processor": "Intel64 Family 6 Model 142 Stepping 10, GenuineIntel",
+      "os": "Windows-10-10.0.26200-SP0",
+      "cpu_count": 8,
+      "ram_gb": 15.9,
+      "cuda": false
+    },
+    "pip_freeze_sha": "87de7737a4395986"
+  }
+}

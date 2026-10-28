@@ -1,0 +1,218 @@
+{
+  "rows": [
+    {
+      "task": "clear_table",
+      "policy": "scripted_expert",
+      "success": 0.9333333333333333,
+      "ci95": [
+        0.7867618227892791,
+        0.9815233646723066
+      ],
+      "n": 30,
+      "items_done_mean": 2.933333333333333,
+      "steps_mean": 666.6333333333333
+    },
+    {
+      "task": "clear_table",
+      "policy": "bc_mlp",
+      "seed": 0,
+      "n_demos": 100,
+      "success": 0.6333333333333333,
+      "ci95": [
+        0.4551324643360493,
+        0.7812629779598231
+      ],
+      "n": 30,
+      "items_done_mean": 2.466666666666667,
+      "steps_mean": 789.1,
+      "val_mse": 0.01962762363621446,
+      "train_s": 1010.1399092674255,
+      "ckpt": "D:\\marble-home\\checkpoints\\bc_mlp_clear_table_n100_s0.pt"
+    },
+    {
+      "task": "laundry_basket",
+      "policy": "scripted_expert",
+      "success": 1.0,
+      "ci95": [
+        0.886482908609522,
+        1.0
+      ],
+      "n": 30,
+      "items_done_mean": 3.0,
+      "steps_mean": 638.1333333333333
+    },
+    {
+      "task": "laundry_basket",
+      "policy": "bc_mlp",
+      "seed": 0,
+      "n_demos": 100,
+      "success": 0.9666666666666667,
+      "ci95": [
+        0.8332924860304112,
+        0.9940915620051425
+      ],
+      "n": 30,
+      "items_done_mean": 2.9,
+      "steps_mean": 646.3,
+      "val_mse": 0.019223776810751346,
+      "train_s": 678.7580547332764,
+      "ckpt": "D:\\marble-home\\checkpoints\\bc_mlp_laundry_basket_n100_s0.pt"
+    },
+    {
+      "task": "load_dishwasher",
+      "policy": "scripted_expert",
+      "success": 1.0,
+      "ci95": [
+        0.886482908609522,
+        1.0
+      ],
+      "n": 30,
+      "items_done_mean": 2.0,
+      "steps_mean": 409.8666666666667
+    },
+    {
+      "task": "load_dishwasher",
+      "policy": "bc_mlp",
+      "seed": 0,
+      "n_demos": 100,
+      "success": 0.9666666666666667,
+      "ci95": [
+        0.8332924860304112,
+        0.9940915620051425
+      ],
+      "n": 30,
+      "items_done_mean": 1.9666666666666666,
+      "steps_mean": 386.06666666666666,
+      "val_mse": 0.021503277883539115,
+      "train_s": 393.80700397491455,
+      "ckpt": "D:\\marble-home\\checkpoints\\bc_mlp_load_dishwasher_n100_s0.pt"
+    },
+    {
+      "task": "clear_table",
+      "policy": "bc_mlp",
+      "seed": 1,
+      "n_demos": 100,
+      "success": 0.7666666666666667,
+      "ci95": [
+        0.5907132766967573,
+        0.8820776078949878
+      ],
+      "n": 30,
+      "items_done_mean": 2.566666666666667,
+      "steps_mean": 728.9,
+      "val_mse": 0.019702242866891328,
+      "train_s": 1351.6833539009094,
+      "ckpt": "D:\\marble-home\\checkpoints\\bc_mlp_clear_table_n100_s1.pt"
+    },
+    {
+      "task": "laundry_basket",
+      "policy": "bc_mlp",
+      "seed": 1,
+      "n_demos": 100,
+      "success": 0.8333333333333334,
+      "ci95": [
+        0.6643529481431982,
+        0.9266356575964831
+      ],
+      "n": 30,
+      "items_done_mean": 2.8,
+      "steps_mean": 697.9333333333333,
+      "val_mse": 0.019107647451747867,
+      "train_s": 864.6094541549683,
+      "ckpt": "D:\\marble-home\\checkpoints\\bc_mlp_laundry_basket_n100_s1.pt"
+    },
+    {
+      "task": "load_dishwasher",
+      "policy": "bc_mlp",
+      "seed": 1,
+      "n_demos": 100,
+      "success": 0.9333333333333333,
+      "ci95": [
+        0.7867618227892791,
+        0.9815233646723066
+      ],
+      "n": 30,
+      "items_done_mean": 2.0,
+      "steps_mean": 400.1,
+      "val_mse": 0.021077998683993716,
+      "train_s": 406.8345274925232,
+      "ckpt": "D:\\marble-home\\checkpoints\\bc_mlp_load_dishwasher_n100_s1.pt"
+    },
+    {
+      "task": "clear_table",
+      "policy": "bc_mlp",
+      "seed": 2,
+      "n_demos": 100,
+      "success": 0.9333333333333333,
+      "ci95": [
+        0.7867618227892791,
+        0.9815233646723066
+      ],
+      "n": 30,
+      "items_done_mean": 2.966666666666667,
+      "steps_mean": 689.5,
+      "val_mse": 0.01951592586079582,
+      "train_s": 1034.5556330680847,
+      "ckpt": "D:\\marble-home\\checkpoints\\bc_mlp_clear_table_n100_s2.pt"
+    },
+    {
+      "task": "laundry_basket",
+      "policy": "bc_mlp",
+      "seed": 2,
+      "n_demos": 100,
+      "success": 0.9,
+      "ci95": [
+        0.7437855868473338,
+        0.9654007400402839
+      ],
+      "n": 30,
+      "items_done_mean": 2.7,
+      "steps_mean": 683.1,
+      "val_mse": 0.019057583957134305,
+      "train_s": 605.6076636314392,
+      "ckpt": "D:\\marble-home\\checkpoints\\bc_mlp_laundry_basket_n100_s2.pt"
+    },
+    {
+      "task": "load_dishwasher",
+      "policy": "bc_mlp",
+      "seed": 2,
+      "n_demos": 100,
+      "success": 0.9666666666666667,
+      "ci95": [
+        0.8332924860304112,
+        0.9940915620051425
+      ],
+      "n": 30,
+      "items_done_mean": 1.9666666666666666,
+      "steps_mean": 387.8666666666667,
+      "val_mse": 0.021233698067036563,
+      "train_s": 688.1882810592651,
+      "ckpt": "D:\\marble-home\\checkpoints\\bc_mlp_load_dishwasher_n100_s2.pt"
+    }
+  ],
+  "manifest": {
+    "git_commit": null,
+    "git_dirty": true,
+    "versions": {
+      "python": "3.11.9",
+      "mujoco": "3.3.7",
+      "robosuite": "1.5.2",
+      "torch": "2.14.1+cpu",
+      "numpy": "1.26.4",
+      "gymnasium": "1.4.0",
+      "stable_baselines3": "2.9.0",
+      "trimesh": "4.12.2",
+      "h5py": "3.16.0",
+      "mink": "?"
+    },
+    "hardware": {
+      "machine": "AMD64",
+      "processor": "Intel64 Family 6 Model 142 Stepping 10, GenuineIntel",
+      "os": "Windows-10-10.0.26200-SP0",
+      "cpu_count": 8,
+      "ram_gb": 15.9,
+      "cuda": false
+    },
+    "pip_freeze_sha": "2f2547ef213e72e3"
+  }
+}

@@ -1,0 +1,9 @@
+# Robot embodiment configuration (source of every value: RoboSuite 1.5.2 defaults unless noted)
+robot: GR1FixedLowerBody      # Level A. Level B: GR1FloatingBody. Level C: GR1 (no learned locomotion in this repo)
+controller: WHOLE_BODY_MINK_IK   # vendored from robosuite v1.5.2 (wheel omits robosuite/examples)
+control_freq_hz: 20
+sim_timestep_s: 0.002           # RoboSuite/MJCF default
+gravity: [0, 0, -9.81]
+solver: Newton                  # MuJoCo default in RoboSuite
+arm_joint_pd: {kp: 1000, kd: 200}   # RoboSuite GR1 json defaults - NOT identified from hardware
+cameras: {head: robot0_robotview, wrist_r: robot0_eye_in_right_hand, wrist_l: robot0_eye_in_left_hand}

@@ -1,0 +1,22 @@
+{
+  "final_stage": 2,
+  "transitions": [
+    {
+      "step": 10002,
+      "event": "manual_advance",
+      "from_stage": 1,
+      "to_stage": 2,
+      "criterion": "fixed schedule at 10000 steps"
+    }
+  ],
+  "skipped_unavailable": [
+    {
+      "id": 5,
+      "why": "needs real Marble exports (no WORLDLABS_API_KEY); synthetic fixtures substitute only for pipeline tests"
+    },
+    {
+      "id": 7,
+      "why": "Level C (learned locomotion) is blocked; base is fixed (Level A)"
+    }
+  ]
+}

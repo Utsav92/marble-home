@@ -1,0 +1,58 @@
+{
+  "task": "pick_up_cup",
+  "demos": 100,
+  "rows": [
+    {
+      "train_dr": "none",
+      "test_dr": "none",
+      "success": 0.16666666666666666,
+      "ci95": [
+        0.07336434240351682,
+        0.3356470518568018
+      ],
+      "n": 30,
+      "val_mse": 0.003413223861246922,
+      "train_s": 4225.852702617645,
+      "epochs": 40
+    },
+    {
+      "train_dr": "none",
+      "test_dr": "visual",
+      "success": 0.16666666666666666,
+      "ci95": [
+        0.07336434240351682,
+        0.3356470518568018
+      ],
+      "n": 30,
+      "val_mse": 0.003413223861246922,
+      "train_s": 4225.852702617645,
+      "epochs": 40
+    }
+  ],
+  "state_bc_same_demos_reference": "bc_mlp_pick_up_cup_n100_s{0,1,2} in data_scaling.json (state obs, privileged cup pose)",
+  "manifest": {
+    "git_commit": null,
+    "git_dirty": true,
+    "versions": {
+      "python": "3.11.9",
+      "mujoco": "3.3.7",
+      "robosuite": "1.5.2",
+      "torch": "2.14.1+cpu",
+      "numpy": "1.26.4",
+      "gymnasium": "1.4.0",
+      "stable_baselines3": "2.9.0",
+      "trimesh": "4.12.2",
+      "h5py": "3.16.0",
+      "mink": "?"
+    },
+    "hardware": {
+      "machine": "AMD64",
+      "processor": "Intel64 Family 6 Model 142 Stepping 10, GenuineIntel",
+      "os": "Windows-10-10.0.26200-SP0",
+      "cpu_count": 8,
+      "ram_gb": 15.9,
+      "cuda": false
+    },
+    "pip_freeze_sha": "87de7737a4395986"
+  }
+}

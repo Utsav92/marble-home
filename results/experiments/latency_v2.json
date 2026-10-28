@@ -1,0 +1,77 @@
+{
+  "threads": 1,
+  "rows": [
+    {
+      "policy": "bc_mlp",
+      "ddim_steps": null,
+      "min_ms": 0.44606999959796667,
+      "median_ms": 0.4865640006028116,
+      "per_env_step_min_ms": 0.44606999959796667
+    },
+    {
+      "policy": "diffusion",
+      "ddim_steps": 1,
+      "min_ms": 9.053400019183755,
+      "median_ms": 11.929499994342525,
+      "per_env_step_min_ms": 1.1316750023979694,
+      "n_act": 8
+    },
+    {
+      "policy": "diffusion",
+      "ddim_steps": 2,
+      "min_ms": 15.737766671615343,
+      "median_ms": 17.30111666256562,
+      "per_env_step_min_ms": 1.967220833951918,
+      "n_act": 8
+    },
+    {
+      "policy": "diffusion",
+      "ddim_steps": 5,
+      "min_ms": 41.75319999922067,
+      "median_ms": 50.24184998668109,
+      "per_env_step_min_ms": 5.219149999902584,
+      "n_act": 8
+    },
+    {
+      "policy": "diffusion",
+      "ddim_steps": 10,
+      "min_ms": 84.74946666198473,
+      "median_ms": 96.1517666776975,
+      "per_env_step_min_ms": 10.59368333274809,
+      "n_act": 8
+    },
+    {
+      "policy": "diffusion",
+      "ddim_steps": 20,
+      "min_ms": 174.81186663887152,
+      "median_ms": 201.0939333316249,
+      "per_env_step_min_ms": 21.85148332985894,
+      "n_act": 8
+    }
+  ],
+  "manifest": {
+    "git_commit": null,
+    "git_dirty": true,
+    "versions": {
+      "python": "3.11.9",
+      "mujoco": "3.3.7",
+      "robosuite": "1.5.2",
+      "torch": "2.14.1+cpu",
+      "numpy": "1.26.4",
+      "gymnasium": "1.4.0",
+      "stable_baselines3": "2.9.0",
+      "trimesh": "4.12.2",
+      "h5py": "3.16.0",
+      "mink": "?"
+    },
+    "hardware": {
+      "machine": "AMD64",
+      "processor": "Intel64 Family 6 Model 142 Stepping 10, GenuineIntel",
+      "os": "Windows-10-10.0.26200-SP0",
+      "cpu_count": 8,
+      "ram_gb": 15.9,
+      "cuda": false
+    },
+    "pip_freeze_sha": "2f2547ef213e72e3"
+  }
+}

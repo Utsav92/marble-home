@@ -1,0 +1,23 @@
+# Pinned to the combination that was actually installed and tested (Windows 11, Python 3.11.9).
+# robosuite 1.5.2 hard-requires MjData.qM which mujoco>=3.4 removed -> pin mujoco 3.3.x.
+robosuite==1.5.2
+mujoco==3.3.7
+mink==0.0.5
+qpsolvers[quadprog]>=4.3.1
+numpy<2
+scipy
+gymnasium
+trimesh
+h5py
+pyyaml
+requests
+pandas
+matplotlib
+scikit-learn
+imageio
+imageio-ffmpeg
+opencv-python
+tensorboard
+streamlit
+pytest
+stable-baselines3

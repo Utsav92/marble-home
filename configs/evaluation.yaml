@@ -1,0 +1,11 @@
+# Benchmark: identical held-out instance seeds for every policy (paired comparison).
+task: pick_up_cup
+test_seeds: {start: 900000, count: 30}
+workers: 2
+policies:
+  - {name: random,          type: random}
+  - {name: scripted_expert, type: scripted}
+  # checkpoint entries are discovered from checkpoints/ if listed here or via --auto
+  # - {name: bc_mlp,        type: checkpoint, path: checkpoints/bc_mlp_pick_up_cup_n240_s0.pt}
+  # - {name: diffusion,     type: checkpoint, path: checkpoints/diffusion_pick_up_cup_n240_s0.pt, ddim_steps: 10}
+env: {obs_mode: state}

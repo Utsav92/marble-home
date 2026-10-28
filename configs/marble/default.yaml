@@ -1,0 +1,32 @@
+# World Labs Marble generation plan (see scripts/generate_worlds.py).
+# NOTHING is generated unless you pass --confirm-spend: every generation consumes paid API credits
+# (platform.worldlabs.ai/billing). Pricing and rate limits are not documented in the API reference.
+model: marble-1.1          # marble-1.0-draft | marble-1.0 | marble-1.1 | marble-1.1-plus
+scenes_per_category: 2
+seed0: 1000
+export:
+  collider_mesh: true      # world.assets.mesh.collider_mesh_url  (GLB)  -> collision geometry
+  splat_ply: true          # POST /worlds/{id}:export {asset_type: splats, format: ply, resolution: 500k}
+  splat_resolution: 500k   # full_res | 500k | 150k | 100k
+common_suffix: >
+  The resulting scene will be used as static background geometry for a physics simulator. Interactive appliances,
+  doors and graspable objects will be inserted separately. Maintain realistic human-scale dimensions, provide clearance
+  for a humanoid robot to walk and reach counters/tables, use realistic residential lighting, and avoid impossible
+  intersections, floating objects and narrow inaccessible corridors.
+categories:
+  kitchen: >
+    Generate a realistic, physically plausible modern apartment kitchen intended for humanoid robotics research.
+    About 5 m by 4 m, ceiling about 2.7 m. Include kitchen counters (0.9 m), cabinets, a dishwasher, a sink, a dining
+    table, chairs and unobstructed walking areas.
+  living_room: >
+    A realistic modern apartment living room about 5 m by 4.5 m with a sofa, a coffee table, open shelves and a few loose
+    household objects, with clear floor space around the furniture.
+  bedroom: >
+    A realistic bedroom about 4 m by 4 m with a bed, a wardrobe, clothing storage and a few floor obstacles, with a
+    clear path from the door to each piece of furniture.
+  laundry_room: >
+    A compact realistic laundry room about 3 m by 3 m with a washing machine, a laundry basket and a folding table at
+    0.9 m height, with enough space for a humanoid robot to stand in front of each.
+  multiroom_apartment: >
+    A realistic small apartment of connected rooms with doorways about 0.9 m wide, a hallway, a kitchen area and a laundry
+    area, with human-scale dimensions throughout.

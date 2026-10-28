@@ -1,0 +1,204 @@
+{
+  "task": "pick_up_cup",
+  "train_s_multiscene": 134.8638460636139,
+  "per_policy": {
+    "bc_multiscene": {
+      "train": {
+        "success": 0.72,
+        "ci95": [
+          0.6251178763865428,
+          0.7986044083240162
+        ],
+        "n": 100,
+        "per_scene": {
+          "proc_kitchen_0000": 0.9,
+          "proc_living_room_0001": 0.9,
+          "proc_bedroom_0002": 0.7,
+          "proc_laundry_room_0003": 0.6,
+          "proc_multiroom_apartment_0004": 0.5,
+          "proc_kitchen_0005": 1.0,
+          "proc_living_room_0006": 0.7,
+          "proc_bedroom_0007": 0.7,
+          "proc_laundry_room_0008": 0.7,
+          "proc_multiroom_apartment_0009": 0.5
+        }
+      },
+      "val": {
+        "success": 0.6666666666666666,
+        "ci95": [
+          0.4877972581383026,
+          0.807697044731538
+        ],
+        "n": 30,
+        "per_scene": {
+          "proc_kitchen_0010": 0.3,
+          "proc_living_room_0011": 0.8,
+          "proc_bedroom_0012": 0.9
+        }
+      },
+      "test": {
+        "success": 0.62,
+        "ci95": [
+          0.48150195022393577,
+          0.7413740415742277
+        ],
+        "n": 50,
+        "per_scene": {
+          "proc_laundry_room_0013": 0.5,
+          "proc_multiroom_apartment_0014": 0.9,
+          "proc_kitchen_0015": 1.0,
+          "proc_living_room_0016": 0.7,
+          "proc_bedroom_0017": 0.0
+        }
+      },
+      "generalization_gap_train_minus_test": 0.09999999999999998
+    },
+    "bc_singlescene": {
+      "train": {
+        "success": 0.0,
+        "ci95": [
+          0.0,
+          0.03699480747600191
+        ],
+        "n": 100,
+        "per_scene": {
+          "proc_kitchen_0000": 0.0,
+          "proc_living_room_0001": 0.0,
+          "proc_bedroom_0002": 0.0,
+          "proc_laundry_room_0003": 0.0,
+          "proc_multiroom_apartment_0004": 0.0,
+          "proc_kitchen_0005": 0.0,
+          "proc_living_room_0006": 0.0,
+          "proc_bedroom_0007": 0.0,
+          "proc_laundry_room_0008": 0.0,
+          "proc_multiroom_apartment_0009": 0.0
+        }
+      },
+      "val": {
+        "success": 0.0,
+        "ci95": [
+          0.0,
+          0.11351709139047801
+        ],
+        "n": 30,
+        "per_scene": {
+          "proc_kitchen_0010": 0.0,
+          "proc_living_room_0011": 0.0,
+          "proc_bedroom_0012": 0.0
+        }
+      },
+      "test": {
+        "success": 0.0,
+        "ci95": [
+          0.0,
+          0.07135003417431873
+        ],
+        "n": 50,
+        "per_scene": {
+          "proc_laundry_room_0013": 0.0,
+          "proc_multiroom_apartment_0014": 0.0,
+          "proc_kitchen_0015": 0.0,
+          "proc_living_room_0016": 0.0,
+          "proc_bedroom_0017": 0.0
+        }
+      },
+      "generalization_gap_train_minus_test": 0.0
+    },
+    "scripted_expert": {
+      "train": {
+        "success": 0.85,
+        "ci95": [
+          0.7671626666784216,
+          0.9069409680883771
+        ],
+        "n": 100,
+        "per_scene": {
+          "proc_kitchen_0000": 1.0,
+          "proc_living_room_0001": 1.0,
+          "proc_bedroom_0002": 0.5,
+          "proc_laundry_room_0003": 0.7,
+          "proc_multiroom_apartment_0004": 0.9,
+          "proc_kitchen_0005": 1.0,
+          "proc_living_room_0006": 0.9,
+          "proc_bedroom_0007": 1.0,
+          "proc_laundry_room_0008": 1.0,
+          "proc_multiroom_apartment_0009": 0.5
+        }
+      },
+      "val": {
+        "success": 0.7666666666666667,
+        "ci95": [
+          0.5907132766967573,
+          0.8820776078949878
+        ],
+        "n": 30,
+        "per_scene": {
+          "proc_kitchen_0010": 0.3,
+          "proc_living_room_0011": 1.0,
+          "proc_bedroom_0012": 1.0
+        }
+      },
+      "test": {
+        "success": 0.88,
+        "ci95": [
+          0.7619492111337642,
+          0.9438247628937535
+        ],
+        "n": 50,
+        "per_scene": {
+          "proc_laundry_room_0013": 1.0,
+          "proc_multiroom_apartment_0014": 0.9,
+          "proc_kitchen_0015": 1.0,
+          "proc_living_room_0016": 1.0,
+          "proc_bedroom_0017": 0.5
+        }
+      },
+      "generalization_gap_train_minus_test": -0.030000000000000027
+    }
+  },
+  "expert_probe": {
+    "proc_kitchen_0000": 1.0,
+    "proc_living_room_0001": 1.0,
+    "proc_bedroom_0002": 0.6666666666666666,
+    "proc_laundry_room_0003": 0.6666666666666666,
+    "proc_multiroom_apartment_0004": 0.8333333333333334,
+    "proc_kitchen_0005": 1.0,
+    "proc_living_room_0006": 0.8333333333333334,
+    "proc_bedroom_0007": 1.0,
+    "proc_laundry_room_0008": 1.0,
+    "proc_multiroom_apartment_0009": 0.6666666666666666,
+    "proc_kitchen_0010": 0.5,
+    "proc_living_room_0011": 1.0,
+    "proc_bedroom_0012": 1.0,
+    "proc_laundry_room_0013": 1.0,
+    "proc_multiroom_apartment_0014": 0.8333333333333334,
+    "proc_kitchen_0015": 1.0,
+    "proc_living_room_0016": 1.0,
+    "proc_bedroom_0017": 0.6666666666666666
+  },
+  "manifest": {
+    "git_commit": null,
+    "git_dirty": true,
+    "versions": {
+      "python": "3.11.9",
+      "mujoco": "3.3.7",
+      "robosuite": "1.5.2",
+      "torch": "2.14.1+cpu",
+      "numpy": "1.26.4",
+      "gymnasium": "1.4.0",
+      "stable_baselines3": "2.9.0",
+      "trimesh": "4.12.2",
+      "h5py": "3.16.0",
+      "mink": "?"
+    },
+    "hardware": {
+      "machine": "AMD64",
+      "processor": "Intel64 Family 6 Model 142 Stepping 10, GenuineIntel",
+      "os": "Windows-10-10.0.26200-SP0",
+      "cpu_count": 8,
+      "ram_gb": 15.9,
+      "cuda": false
+    },
+    "pip_freeze_sha": "87de7737a4395986"
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "scene": "marble_laundry_room_001",
+  "source": "marble_import",
+  "passed": true,
+  "checks": {
+    "mesh_loaded_and_processed": {
+      "pass": true,
+      "detail": "399261 raw faces -> 1434 boxes + 0 hulls",
+      "required": true
+    },
+    "floor_height_plausible": {
+      "pass": true,
+      "detail": "floor after alignment z = -0.0000 m (tol 0.03); raw floor was at -1.716 m (shifted +1.716 m); floor = 87% of up-facing area",
+      "required": true
+    },
+    "room_dimensions_plausible": {
+      "pass": true,
+      "detail": "room 4.3 x 4.4 m, height 3.18 m (declared dimensions are constraints to verify, not guarantees)",
+      "required": false
+    },
+    "complexity_within_limits": {
+      "pass": true,
+      "detail": "boxes 1434/3000, max hull faces 0/96",
+      "required": true
+    },
+    "task_zone_free_of_static_geometry": {
+      "pass": true,
+      "detail": "0 Marble boxes intersect the counter workspace {'x': (-0.6, 0.45), 'y': (-0.65, 0.65), 'z': (0.88, 1.6)}",
+      "required": true
+    },
+    "mujoco_model_compiles": {
+      "pass": true,
+      "detail": "2558 geoms, 92 bodies",
+      "required": true
+    },
+    "no_floor_penetration": {
+      "pass": true,
+      "detail": "deepest robot contact 0.0 mm (0 contacts), base z 0.950 m (nominal 0.95), cup rest error 0.5 mm",
+      "required": true
+    },
+    "robot_spawn_collision_free": {
+      "pass": true,
+      "detail": "0 robot<->Marble-geometry contacts after 40 settle steps",
+      "required": true
+    },
+    "screenshots_nonblank": {
+      "pass": true,
+      "detail": "4 screenshots rendered; required views overview+top OK",
+      "required": true
+    },
+    "approach_positions_reachable_scripted_pick": {
+      "pass": true,
+      "detail": "scripted pick_up_cup: 2/3 in this scene vs 2/3 in the open procedural kitchen ([{'seed': 500, 'marble_scene': True, 'open_baseline': True, 'invalid_steps': 0}, {'seed': 501, 'marble_scene': True, 'open_baseline': True, 'invalid_steps': 0}, {'seed': 502, 'marble_scene': False, 'open_baseline': False, 'invalid_steps': 0}])",
+      "required": true
+    }
+  },
+  "screenshots": {
+    "overview": "D:\\marble-home\\results\\geometry\\marble_laundry_room_001\\overview.png",
+    "eval_side": "D:\\marble-home\\results\\geometry\\marble_laundry_room_001\\eval_side.png",
+    "eval_top": "D:\\marble-home\\results\\geometry\\marble_laundry_room_001\\eval_top.png",
+    "eval_front3q": "D:\\marble-home\\results\\geometry\\marble_laundry_room_001\\eval_front3q.png"
+  },
+  "processing_warnings": [
+    "floor at z=-1.716 m after unit/offset handling (no/incorrect ground_plane_offset); shifting so floor=0"
+  ],
+  "processing_assumptions": []
+}

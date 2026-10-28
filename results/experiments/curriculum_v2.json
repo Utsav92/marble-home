@@ -1,0 +1,124 @@
+{
+  "rows": [
+    {
+      "mode": "fixed",
+      "seed": 0,
+      "success": 0.03333333333333333,
+      "ci95": [
+        0.005908437994857381,
+        0.16670751396958874
+      ],
+      "n": 30,
+      "collision_free": 0.06666666666666667,
+      "wall_s": 1282.9383506774902,
+      "transitions": null
+    },
+    {
+      "mode": "fixed",
+      "seed": 1,
+      "success": 0.03333333333333333,
+      "ci95": [
+        0.005908437994857381,
+        0.16670751396958874
+      ],
+      "n": 30,
+      "collision_free": 0.03333333333333333,
+      "wall_s": 1193.9682023525238,
+      "transitions": null
+    },
+    {
+      "mode": "manual",
+      "seed": 0,
+      "success": 0.0,
+      "ci95": [
+        0.0,
+        0.11351709139047801
+      ],
+      "n": 30,
+      "collision_free": 0.13333333333333333,
+      "wall_s": 1342.6582608222961,
+      "transitions": [
+        {
+          "step": 10002,
+          "event": "manual_advance",
+          "from_stage": 1,
+          "to_stage": 2,
+          "criterion": "fixed schedule at 10000 steps"
+        }
+      ]
+    },
+    {
+      "mode": "manual",
+      "seed": 1,
+      "success": 0.03333333333333333,
+      "ci95": [
+        0.005908437994857381,
+        0.16670751396958874
+      ],
+      "n": 30,
+      "collision_free": 0.06666666666666667,
+      "wall_s": 1793.8453257083893,
+      "transitions": [
+        {
+          "step": 10002,
+          "event": "manual_advance",
+          "from_stage": 1,
+          "to_stage": 2,
+          "criterion": "fixed schedule at 10000 steps"
+        }
+      ]
+    },
+    {
+      "mode": "adaptive",
+      "seed": 0,
+      "success": 0.0,
+      "ci95": [
+        0.0,
+        0.11351709139047801
+      ],
+      "n": 30,
+      "collision_free": 0.4,
+      "wall_s": 1407.945552110672,
+      "transitions": []
+    },
+    {
+      "mode": "adaptive",
+      "seed": 1,
+      "success": 0.03333333333333333,
+      "ci95": [
+        0.005908437994857381,
+        0.16670751396958874
+      ],
+      "n": 30,
+      "collision_free": 0.13333333333333333,
+      "wall_s": 1516.928495645523,
+      "transitions": []
+    }
+  ],
+  "total_steps_each": 30000,
+  "manifest": {
+    "git_commit": null,
+    "git_dirty": true,
+    "versions": {
+      "python": "3.11.9",
+      "mujoco": "3.3.7",
+      "robosuite": "1.5.2",
+      "torch": "2.14.1+cpu",
+      "numpy": "1.26.4",
+      "gymnasium": "1.4.0",
+      "stable_baselines3": "2.9.0",
+      "trimesh": "4.12.2",
+      "h5py": "3.16.0",
+      "mink": "?"
+    },
+    "hardware": {
+      "machine": "AMD64",
+      "processor": "Intel64 Family 6 Model 142 Stepping 10, GenuineIntel",
+      "os": "Windows-10-10.0.26200-SP0",
+      "cpu_count": 8,
+      "ram_gb": 15.9,
+      "cuda": false
+    },
+    "pip_freeze_sha": "2f2547ef213e72e3"
+  }
+}

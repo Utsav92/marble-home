@@ -1,0 +1,72 @@
+{
+ "10.0": {
+  "success": 0.3333333333333333,
+  "per_point": [
+   false,
+   false,
+   false,
+   false,
+   true,
+   true
+  ],
+  "eef_err": 0.10209673627479782,
+  "max_waist_yaw": 0.22852105168543477,
+  "max_waist_pitch": 0.49630675802747926
+ },
+ "5.0": {
+  "success": 1.0,
+  "per_point": [
+   true,
+   true,
+   true,
+   true,
+   true,
+   true
+  ],
+  "eef_err": 0.008540084806447147,
+  "max_waist_yaw": 0.30988881369388727,
+  "max_waist_pitch": 0.5805067945987441
+ },
+ "3.0": {
+  "success": 1.0,
+  "per_point": [
+   true,
+   true,
+   true,
+   true,
+   true,
+   true
+  ],
+  "eef_err": 0.007218360937116427,
+  "max_waist_yaw": 0.35928811982594316,
+  "max_waist_pitch": 0.6280735255272771
+ },
+ "2.0": {
+  "success": 1.0,
+  "per_point": [
+   true,
+   true,
+   true,
+   true,
+   true,
+   true
+  ],
+  "eef_err": 0.0067608337046670295,
+  "max_waist_yaw": 0.382849916264244,
+  "max_waist_pitch": 0.6543957556664229
+ },
+ "1.0": {
+  "success": 1.0,
+  "per_point": [
+   true,
+   true,
+   true,
+   true,
+   true,
+   true
+  ],
+  "eef_err": 0.006552517208317688,
+  "max_waist_yaw": 0.40021242464992796,
+  "max_waist_pitch": 0.6759443111191782
+ }
+}

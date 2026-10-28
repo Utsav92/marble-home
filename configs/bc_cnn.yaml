@@ -1,0 +1,17 @@
+# Behaviour cloning, CNN + proprio on rendered demos (see scripts/render_dataset.py)
+task: pick_up_cup
+model: cnn
+obs: rgb            # rgb | rgbd | multicam
+dataset: pick_up_cup_rgb64
+hidden: [256, 256]
+feat: 64
+epochs: 60
+batch_size: 64
+lr: 3.0e-4
+weight_decay: 1.0e-4
+grad_clip: 1.0
+patience: 12
+seed: 0
+n_demos: null
+run_name: null
+eval_episodes: 30

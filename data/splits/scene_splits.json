@@ -1,0 +1,26 @@
+{
+  "train": [
+    "proc_kitchen_0000",
+    "proc_living_room_0001",
+    "proc_bedroom_0002",
+    "proc_laundry_room_0003",
+    "proc_multiroom_apartment_0004",
+    "proc_kitchen_0005",
+    "proc_living_room_0006",
+    "proc_bedroom_0007",
+    "proc_laundry_room_0008",
+    "proc_multiroom_apartment_0009"
+  ],
+  "val": [
+    "proc_kitchen_0010",
+    "proc_living_room_0011",
+    "proc_bedroom_0012"
+  ],
+  "test": [
+    "proc_laundry_room_0013",
+    "proc_multiroom_apartment_0014",
+    "proc_kitchen_0015",
+    "proc_living_room_0016",
+    "proc_bedroom_0017"
+  ]
+}

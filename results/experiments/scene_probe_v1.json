@@ -1,0 +1,200 @@
+{
+  "task": "pick_up_cup",
+  "rows": [
+    {
+      "split": "train",
+      "scene_id": "proc_kitchen_0000",
+      "kind": "kitchen",
+      "counter_height": 0.846978671376387,
+      "expert_success": 1.0,
+      "n": 6
+    },
+    {
+      "split": "train",
+      "scene_id": "proc_living_room_0001",
+      "kind": "living_room",
+      "counter_height": 0.9150463696325936,
+      "expert_success": 1.0,
+      "n": 6
+    },
+    {
+      "split": "train",
+      "scene_id": "proc_bedroom_0002",
+      "kind": "bedroom",
+      "counter_height": 0.8498491143414123,
+      "expert_success": 0.6666666666666666,
+      "n": 6
+    },
+    {
+      "split": "train",
+      "scene_id": "proc_laundry_room_0003",
+      "kind": "laundry_room",
+      "counter_height": 0.84368105065961,
+      "expert_success": 0.6666666666666666,
+      "n": 6
+    },
+    {
+      "split": "train",
+      "scene_id": "proc_multiroom_apartment_0004",
+      "kind": "multiroom_apartment",
+      "counter_height": 0.8711327552814362,
+      "expert_success": 0.8333333333333334,
+      "n": 6
+    },
+    {
+      "split": "train",
+      "scene_id": "proc_kitchen_0005",
+      "kind": "kitchen",
+      "counter_height": 0.9007940789736494,
+      "expert_success": 1.0,
+      "n": 6
+    },
+    {
+      "split": "train",
+      "scene_id": "proc_living_room_0006",
+      "kind": "living_room",
+      "counter_height": 0.8543270869813339,
+      "expert_success": 0.8333333333333334,
+      "n": 6
+    },
+    {
+      "split": "train",
+      "scene_id": "proc_bedroom_0007",
+      "kind": "bedroom",
+      "counter_height": 0.9097213800969576,
+      "expert_success": 1.0,
+      "n": 6
+    },
+    {
+      "split": "train",
+      "scene_id": "proc_laundry_room_0008",
+      "kind": "laundry_room",
+      "counter_height": 0.9187276843337926,
+      "expert_success": 1.0,
+      "n": 6
+    },
+    {
+      "split": "train",
+      "scene_id": "proc_multiroom_apartment_0009",
+      "kind": "multiroom_apartment",
+      "counter_height": 0.8486817209087555,
+      "expert_success": 0.6666666666666666,
+      "n": 6
+    },
+    {
+      "split": "val",
+      "scene_id": "proc_kitchen_0010",
+      "kind": "kitchen",
+      "counter_height": 0.8407681810079146,
+      "expert_success": 0.5,
+      "n": 6
+    },
+    {
+      "split": "val",
+      "scene_id": "proc_living_room_0011",
+      "kind": "living_room",
+      "counter_height": 0.8699277862440115,
+      "expert_success": 1.0,
+      "n": 6
+    },
+    {
+      "split": "val",
+      "scene_id": "proc_bedroom_0012",
+      "kind": "bedroom",
+      "counter_height": 0.9146752942859425,
+      "expert_success": 1.0,
+      "n": 6
+    },
+    {
+      "split": "test",
+      "scene_id": "proc_laundry_room_0013",
+      "kind": "laundry_room",
+      "counter_height": 0.905530251493206,
+      "expert_success": 1.0,
+      "n": 6
+    },
+    {
+      "split": "test",
+      "scene_id": "proc_multiroom_apartment_0014",
+      "kind": "multiroom_apartment",
+      "counter_height": 0.8560946666834256,
+      "expert_success": 0.8333333333333334,
+      "n": 6
+    },
+    {
+      "split": "test",
+      "scene_id": "proc_kitchen_0015",
+      "kind": "kitchen",
+      "counter_height": 0.9015817111336057,
+      "expert_success": 1.0,
+      "n": 6
+    },
+    {
+      "split": "test",
+      "scene_id": "proc_living_room_0016",
+      "kind": "living_room",
+      "counter_height": 0.8630744145490186,
+      "expert_success": 1.0,
+      "n": 6
+    },
+    {
+      "split": "test",
+      "scene_id": "proc_bedroom_0017",
+      "kind": "bedroom",
+      "counter_height": 0.8360973091169107,
+      "expert_success": 0.6666666666666666,
+      "n": 6
+    }
+  ],
+  "scenes": {
+    "train": [
+      "proc_kitchen_0000",
+      "proc_living_room_0001",
+      "proc_bedroom_0002",
+      "proc_laundry_room_0003",
+      "proc_multiroom_apartment_0004",
+      "proc_kitchen_0005",
+      "proc_living_room_0006",
+      "proc_bedroom_0007",
+      "proc_laundry_room_0008",
+      "proc_multiroom_apartment_0009"
+    ],
+    "val": [
+      "proc_kitchen_0010",
+      "proc_living_room_0011",
+      "proc_bedroom_0012"
+    ],
+    "test": [
+      "proc_laundry_room_0013",
+      "proc_multiroom_apartment_0014",
+      "proc_kitchen_0015",
+      "proc_living_room_0016",
+      "proc_bedroom_0017"
+    ]
+  },
+  "manifest": {
+    "git_commit": null,
+    "git_dirty": true,
+    "versions": {
+      "python": "3.11.9",
+      "mujoco": "3.3.7",
+      "robosuite": "1.5.2",
+      "torch": "2.14.1+cpu",
+      "numpy": "1.26.4",
+      "gymnasium": "1.4.0",
+      "stable_baselines3": "2.9.0",
+      "trimesh": "4.12.2",
+      "h5py": "3.16.0",
+      "mink": "?"
+    },
+    "hardware": {
+      "machine": "AMD64",
+      "processor": "Intel64 Family 6 Model 142 Stepping 10, GenuineIntel",
+      "os": "Windows-10-10.0.26200-SP0",
+      "cpu_count": 8,
+      "ram_gb": 15.9,
+      "cuda": false
+    },
+    "pip_freeze_sha": "87de7737a4395986"
+  }
+}

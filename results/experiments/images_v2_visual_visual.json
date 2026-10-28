@@ -1,0 +1,37 @@
+{
+  "task": "pick_up_cup",
+  "train_dr": "visual",
+  "test_dr": "visual",
+  "success": 0.2,
+  "ci95": [
+    0.09504978102401236,
+    0.37306047381027446
+  ],
+  "n": 30,
+  "ckpt": "checkpoints/bc_cnn_v2_visual_n150_s0.pt",
+  "manifest": {
+    "git_commit": null,
+    "git_dirty": true,
+    "versions": {
+      "python": "3.11.9",
+      "mujoco": "3.3.7",
+      "robosuite": "1.5.2",
+      "torch": "2.14.1+cpu",
+      "numpy": "1.26.4",
+      "gymnasium": "1.4.0",
+      "stable_baselines3": "2.9.0",
+      "trimesh": "4.12.2",
+      "h5py": "3.16.0",
+      "mink": "?"
+    },
+    "hardware": {
+      "machine": "AMD64",
+      "processor": "Intel64 Family 6 Model 142 Stepping 10, GenuineIntel",
+      "os": "Windows-10-10.0.26200-SP0",
+      "cpu_count": 8,
+      "ram_gb": 15.9,
+      "cuda": false
+    },
+    "pip_freeze_sha": "2f2547ef213e72e3"
+  }
+}
